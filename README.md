@@ -22,4 +22,26 @@ REST API using NestJS framework and NodeJS with Typescript, ORM Sequelize and My
 
 > npm install -g @nestjs/cli
 
+* Run in MySQL Command Line
 
+  > create database bookstore
+
+  > use bookstore
+
+> 
+
+<br>
+
+### Running the app
+---
+
+```bash
+# development
+$ yarn run start
+
+# watch mode
+$ yarn run start:dev
+
+# production mode
+$ yarn run start:prod
+```
