@@ -28,7 +28,9 @@ REST API using NestJS framework and NodeJS with Typescript, ORM Sequelize and My
 
   > use bookstore
 
-> 
+> yarn add @nestjs/sequelize sequelize@6.1 sequelize-typescript@2 mysql2
+
+> yarn add @types/sequelize -D
 
 <br>
 
