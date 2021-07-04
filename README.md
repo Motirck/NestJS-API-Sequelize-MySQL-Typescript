@@ -6,6 +6,8 @@
 
 REST API using NestJS framework and NodeJS with Typescript, ORM Sequelize and MySQL database.
 
+Nest Documentation: https://docs.nestjs.com/
+
 <br>
 
 ### **Status**: 🥂✨ Completed ✨🥂
