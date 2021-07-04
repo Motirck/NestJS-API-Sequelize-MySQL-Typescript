@@ -32,6 +32,8 @@ REST API using NestJS framework and NodeJS with Typescript, ORM Sequelize and My
 
 > yarn add @types/sequelize -D
 
+> yarn add @nestjs/config
+
 <br>
 
 ### Running the app
