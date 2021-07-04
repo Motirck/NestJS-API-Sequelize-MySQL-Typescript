@@ -1,8 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { Book } from './book.model';
 import { BooksController } from './books.controller';
 import { BooksService } from './books.service';
@@ -22,7 +20,7 @@ import { BooksService } from './books.service';
     }),
     SequelizeModule.forFeature([Book])
   ],
-  controllers: [AppController, BooksController],
-  providers: [AppService, BooksService],
+  controllers: [BooksController],
+  providers: [BooksService],
 })
 export class AppModule { }
