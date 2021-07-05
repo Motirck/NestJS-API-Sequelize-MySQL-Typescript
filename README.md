@@ -23,8 +23,6 @@ Nest Documentation: https://docs.nestjs.com/
 
 > npm install --global yarn
 
-> yarn init -y
-
 > npm install -g @nestjs/cli
 
 > nest new api-products
