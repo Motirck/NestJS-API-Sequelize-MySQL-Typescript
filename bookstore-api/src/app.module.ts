@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { Book } from './book.model';
-import { BooksController } from './books.controller';
-import { BooksService } from './books.service';
+import { Book } from './book/book.model';
+import { BooksController } from './book/books.controller';
+import { BooksService } from './book/books.service';
 
 @Module({
   imports: [
