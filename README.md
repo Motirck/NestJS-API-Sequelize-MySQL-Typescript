@@ -27,6 +27,8 @@ Nest Documentation: https://docs.nestjs.com/
 
 > npm install -g @nestjs/cli
 
+> nest new api-products
+
 * Run in MySQL Command Line
 
   > create database bookstore
